@@ -1,0 +1,28 @@
+{
+  "name": "dro",
+  "version": "0.0.2",
+  "description": "A slim DOM manipulation libary written in TypeScript.",
+  "main": "./lib/dro.js",
+  "types": "./lib/dro.d.ts",
+  "scripts": {
+    "build": "tsc -p .",
+    "prepublishOnly": "rm -rf lib && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xingrz/dro.git"
+  },
+  "keywords": [
+    "TypeScript",
+    "DOM"
+  ],
+  "author": "XiNGRZ <hi@xingrz.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xingrz/dro/issues"
+  },
+  "homepage": "https://github.com/xingrz/dro#readme",
+  "devDependencies": {
+    "typescript": "^4.4.4"
+  }
+}
